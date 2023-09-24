@@ -1,0 +1,89 @@
+html {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+}
+
+header h1 {
+    height: 60px;
+    background-color: #957597;
+    margin: 0;
+    text-align: center;
+    color: white;
+    font-size: 46px;
+}
+header h1 a {
+    text-decoration: none;
+    color: inherit;
+}
+header h2 {
+    height: 36px;
+    background-color: #555779;
+    margin: 0;
+    text-align: center;
+    color: #191B32;
+    font-size: 30px;
+}
+header h2 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header h1 span {
+    display: inline-block;
+}
+header h1 span::first-letter {
+    color: #2D142F
+}
+
+main {
+    flex-grow: 1;
+    margin : 10px;
+    padding: 20px;
+}
+
+/* Eléments communes */
+
+main figure {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+main figure img {
+    max-width: 100%;
+}
+
+main ul {
+    margin:0;
+    padding: 0 0 0 2em;
+}
+
+main .reperes_historiques {
+    background-repeat: no-repeat;
+    background-size: 2.7rem;
+    background-position-y: center;
+    min-height: 3rem;
+    padding: 0 0 0 3.5rem;
+    background-image: url(icone_histoire.svg);
+}
+
+footer {
+    padding-top:40px;
+    text-align: center;
+}
+
+
+

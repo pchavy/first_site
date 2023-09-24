@@ -1,0 +1,149 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Arvo:700&amp;display=swap');
+
+
+html {
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+
+/*--------------------------------*/
+main h1 {
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Arvo', serif;
+    text-shadow: 0.1em .1em .15em gray;
+}
+
+main h2 {
+    margin: 1.5em 0 0.5em 0;
+    font-family: 'Arvo', serif;
+    font-size: 2em;
+    border-bottom: solid 2px black;
+    text-shadow: 0.1em 0.1em 0.15em gray;
+}
+
+main h3 {
+    margin: 1em 0 0.5em 0;
+    font-family: 'Arvo', serif;
+    font-style: italic;
+    font-size: 1.6em;
+}
+
+main h4 {
+    margin: 1em 0 0.5em .5em;
+    font-family: 'Arvo', serif;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+main p {
+    margin: .15em 0 0.15em 1em;
+}
+
+main fieldset {
+    background-color:#f9f9f9;
+    border-radius:0.5em;
+    margin:1em
+}
+
+main fieldset legend {
+    font-weight: bold;
+}
+
+main .correction {
+    font-style: normal;
+    color: #333;
+}
+
+main figure {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+main li {
+    list-style: none;
+}
+
+main pre[class*="language-"] {
+    margin: .5em 0 1em 2em;
+}
+
+main blockquote {
+    margin: 0 0 0 1.5em;
+}
+
+main .centre {
+    text-align: center;
+}
+
+main .decale {
+    margin-left: 1.5em;
+}
+
+main .gras {
+    font-weight: bold;
+}
+
+main .rouge {
+    color: #c00
+}
+
+main .btn {
+    font-size: 0.95rem;
+    background-color: #ccc;
+    border: 1px solid #999;
+    padding: 0 0.2em;
+    border-radius: 0.2em;
+}
+
+main div.icone {
+    background-repeat: repeat-y ;
+    background-size: 3rem;
+    background-position-y: center;
+    min-height: 3rem;
+    padding: 0 0 0 2.5rem;
+    margin-left: 1em;
+}
+
+main div.ordinateur {
+    background-image: url(icone_ordinateur.png);
+}
+
+main div.stylo {
+    background-image: url(icone_crayon.png);
+    color: #339;
+    font-style: italic;
+}
+
+main div.web {
+    background-image: url(icone_globe_cursor.png);
+}
+
+main .documents {
+    background-image: url(icone_documents.png);
+}
+
+main .documents_rouge {
+    background-image: url(icone_documents_rouge.png);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table td, th {
+    text-align: center;
+    border-right: black solid 1px;
+    border-bottom: black solid 1px;
+    padding: 0.2em;
+}
